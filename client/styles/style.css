@@ -1,0 +1,118 @@
+body{
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blockchainFormMainDiv{
+    min-height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blockchainFormMainDiv label{
+    margin: 10px;
+}
+
+.blockchainFormMainDiv button{
+    margin: 10px;
+    min-width: 100px;
+}
+
+.blockchainDiv{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:15px;
+}
+
+.blockchainInfoDiv{
+    background-color: rgb(247, 243, 199);
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.blockchainContentDiv{
+    background-color: rgb(238, 188, 79);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.blockchainInputFormsDiv{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addUserFormDiv, .generateBlockDiv{
+    background-color: rgb(56, 234, 240);
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    padding: 15px;
+    border: 2px solid rosybrown;
+}
+.addUserFormDiv{
+    margin-bottom: 10px;
+}
+
+.userListDiv{
+    border: 2px solid aqua;
+    width: 100%;
+    display: flex;
+}
+
+.blockchainPicture{
+    max-width: 75px;
+    max-height: 75px;
+    margin-left:10px;
+}
+
+.blockchainNameAndPicDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userListDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.userMainDiv{
+    flex: 1, 1, 10px;
+    padding: 10px;
+    flex-direction: column;
+
+    margin: 15px;
+    border: 5px solid white;
+}
+.userDetailsDiv{
+    margin-top: 10px;
+    padding:10px;
+    display: flex;
+    color:rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userCommandsDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userCommandsDiv button{
+    width: 55px;
+    height: 30px;
+}
+
+
+
